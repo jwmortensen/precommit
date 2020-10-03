@@ -9,6 +9,8 @@
   argument `--style_fun` is deprecated and will be removed in a future release.
   (#183).
 - install_hooks in `use_precommit()` should now work as expected (#185).
+- `version_precommit()` and `update_precommit()` are new functions to check the
+  version of the installed pre-commit executable and to update it (#197).
 
 **Minor changes**
 
